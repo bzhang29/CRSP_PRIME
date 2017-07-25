@@ -1,4 +1,4 @@
-///@file CRSP_PRIME.cpp
+﻿///@file CRSP_PRIME.cpp
 ///@brief Implementation of the Deleglise-Rivat prime counting algorithm
 ///       In Deleglise-Rivat algorithm there were S_1, S_2 and S_3
 ///       needed to be compute in the special leaves. We also used some 
@@ -9,6 +9,7 @@
 ///       MILLER, ODLYZKO METHOD, 
 ///       Math. Comp, 65, number 33, (1996), 235–245.
 
+///       Compile using g++ -std=c++11 CRSP_PRIME.cc -o prime
 
 #include <iostream>
 #include <cmath>
